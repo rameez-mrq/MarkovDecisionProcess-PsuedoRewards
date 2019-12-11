@@ -10,7 +10,8 @@ Computing optimal incentives for decision-support. As per the paper **'Cognitive
 
 ![Flight Game](figure/mdp_fig.jpeg?raw=true "Flight Game")
 ## to_do_list.py
-####*Note*: The to_do_list.py is not optimised for large no. of tasks due to its exponential time complexity.
+#### *Note*: The to_do_list.py is not optimised for large no. of tasks due to its exponential time complexity.
+
 The MDP model that Lieder, Chen, Krueger, and Griffiths (2019) used to compute optimal incentives for to-do list gamification. The fucntion assumes that there are five to-dos that take 5,10,15,20,25 minutes to complete respectively, the user values their time at about $8 per hour and that the discount factor is less than 1.
 
 To check the results of the MDP model, please run the attached program `to_do_list.py` and enter the current state separated by space. The output shows the next possible state with the respective optimal incentive.
